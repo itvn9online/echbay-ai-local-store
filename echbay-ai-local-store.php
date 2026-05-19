@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: EchBay Local Store
-* Version: 1.1.3
+* Version: 1.1.4
 * Description: Find a Local Store by EchBay
 * Author: Dao Quoc Dai
 * Author URI: http://webgiare.org
@@ -30,8 +30,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 defined('ABSPATH') or die('No script kiddies please!');
 
-// define('DEVVN_LS_VERSION_NUM', file_get_contents(__DIR__ . '/VERSION'));
-define('DEVVN_LS_VERSION_NUM', time());
+define('DEVVN_LS_VERSION_NUM', file_get_contents(__DIR__ . '/VERSION'));
+// define('DEVVN_LS_VERSION_NUM', filemtime(__FILE__));
 
 if (!class_exists('DevVN_Local_Store_Class')) {
     add_action('plugins_loaded', array('DevVN_Local_Store_Class', 'init'));
@@ -40,7 +40,7 @@ if (!class_exists('DevVN_Local_Store_Class')) {
     {
         protected static $instance;
 
-        public $_version = '1.1.3';
+        // public $_version = DEVVN_LS_VERSION_NUM;
         public $_optionName = 'dvls_options';
         public $_optionGroup = 'dvls-options-group';
         public $_defaultOptions = array(
@@ -131,8 +131,6 @@ if (!class_exists('DevVN_Local_Store_Class')) {
 
         public function define_constants()
         {
-
-            // defined('DEVVN_LS_VERSION_NUM') || define('DEVVN_LS_VERSION_NUM', $this->_version);
 
             defined('DEVVN_LS_URL') || define('DEVVN_LS_URL', plugin_dir_url(__FILE__));
 
@@ -674,5 +672,19 @@ if (!class_exists('DevVN_Local_Store_Class')) {
         {
             // No longer required: plugin now uses Leaflet (no API key needed)
         }
+    }
+}
+
+// ---------------------------------------------------------------------------
+// GitHub Updater — load only in admin context to avoid frontend overhead
+// ---------------------------------------------------------------------------
+if (is_admin()) {
+    require_once plugin_dir_path(__FILE__) . 'inc/dvls-github-updater.php';
+
+    if (class_exists('DVLS_GitHub_Updater')) {
+        new DVLS_GitHub_Updater(
+            plugin_basename(__FILE__),   // echbay-ai-local-store/echbay-ai-local-store.php
+            DEVVN_LS_VERSION_NUM         // current installed version
+        );
     }
 }
