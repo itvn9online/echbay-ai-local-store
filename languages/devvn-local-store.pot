@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: DevVN Local Store\n"
+"Project-Id-Version: EchBay Local Store\n"
 "POT-Creation-Date: 2018-07-21 00:18+0700\n"
 "PO-Revision-Date: 2017-07-31 08:43+0700\n"
 "Last-Translator: \n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Poedit 2.0.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: devvn-local-store.php\n"
+"X-Poedit-WPHeader: echbay-ai-local-store.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
@@ -21,228 +21,228 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: devvn-local-store.php:147 devvn-local-store.php:157
+#: echbay-ai-local-store.php:147 echbay-ai-local-store.php:157
 msgid "Settings"
 msgstr ""
 
-#: devvn-local-store.php:156
+#: echbay-ai-local-store.php:156
 msgid "Find a local store Setting"
 msgstr ""
 
-#: devvn-local-store.php:187 inc/dvls-metabox.php:31 inc/dvls-shortcode.php:19
+#: echbay-ai-local-store.php:187 inc/dvls-metabox.php:31 inc/dvls-shortcode.php:19
 msgid "Select district"
 msgstr ""
 
-#: devvn-local-store.php:222
+#: echbay-ai-local-store.php:222
 #, php-format
 msgid "Developed by %sLê Văn Toản%s."
 msgstr ""
 
-#: devvn-local-store.php:231
+#: echbay-ai-local-store.php:231
 msgctxt "Post Type General Name"
 msgid "Stores"
 msgstr ""
 
-#: devvn-local-store.php:232
+#: echbay-ai-local-store.php:232
 msgctxt "Post Type Singular Name"
 msgid "Store"
 msgstr ""
 
-#: devvn-local-store.php:233 devvn-local-store.php:235
+#: echbay-ai-local-store.php:233 echbay-ai-local-store.php:235
 msgid "Stores"
 msgstr ""
 
-#: devvn-local-store.php:234 devvn-local-store.php:260
+#: echbay-ai-local-store.php:234 echbay-ai-local-store.php:260
 msgid "Store"
 msgstr ""
 
-#: devvn-local-store.php:236
+#: echbay-ai-local-store.php:236
 msgid "Store Attributes"
 msgstr ""
 
-#: devvn-local-store.php:237
+#: echbay-ai-local-store.php:237
 msgid "Parent Store:"
 msgstr ""
 
-#: devvn-local-store.php:238
+#: echbay-ai-local-store.php:238
 msgid "All Stores"
 msgstr ""
 
-#: devvn-local-store.php:239
+#: echbay-ai-local-store.php:239
 msgid "Add New Store"
 msgstr ""
 
-#: devvn-local-store.php:240
+#: echbay-ai-local-store.php:240
 msgid "Add New"
 msgstr ""
 
-#: devvn-local-store.php:241
+#: echbay-ai-local-store.php:241
 msgid "New Store"
 msgstr ""
 
-#: devvn-local-store.php:242
+#: echbay-ai-local-store.php:242
 msgid "Edit Store"
 msgstr ""
 
-#: devvn-local-store.php:243
+#: echbay-ai-local-store.php:243
 msgid "Update Store"
 msgstr ""
 
-#: devvn-local-store.php:244
+#: echbay-ai-local-store.php:244
 msgid "View Store"
 msgstr ""
 
-#: devvn-local-store.php:245
+#: echbay-ai-local-store.php:245
 msgid "View Stores"
 msgstr ""
 
-#: devvn-local-store.php:246
+#: echbay-ai-local-store.php:246
 msgid "Search Store"
 msgstr ""
 
-#: devvn-local-store.php:247
+#: echbay-ai-local-store.php:247
 msgid "Not found"
 msgstr ""
 
-#: devvn-local-store.php:248
+#: echbay-ai-local-store.php:248
 msgid "Not found in Trash"
 msgstr ""
 
-#: devvn-local-store.php:249
+#: echbay-ai-local-store.php:249
 msgid "Featured Image"
 msgstr ""
 
-#: devvn-local-store.php:250
+#: echbay-ai-local-store.php:250
 msgid "Set featured image"
 msgstr ""
 
-#: devvn-local-store.php:251
+#: echbay-ai-local-store.php:251
 msgid "Remove featured image"
 msgstr ""
 
-#: devvn-local-store.php:252
+#: echbay-ai-local-store.php:252
 msgid "Use as featured image"
 msgstr ""
 
-#: devvn-local-store.php:253
+#: echbay-ai-local-store.php:253
 msgid "Insert into item"
 msgstr ""
 
-#: devvn-local-store.php:254
+#: echbay-ai-local-store.php:254
 msgid "Uploaded to this item"
 msgstr ""
 
-#: devvn-local-store.php:255 devvn-local-store.php:304
+#: echbay-ai-local-store.php:255 echbay-ai-local-store.php:304
 msgid "Items list"
 msgstr ""
 
-#: devvn-local-store.php:256 devvn-local-store.php:305
+#: echbay-ai-local-store.php:256 echbay-ai-local-store.php:305
 msgid "Items list navigation"
 msgstr ""
 
-#: devvn-local-store.php:257
+#: echbay-ai-local-store.php:257
 msgid "Filter items list"
 msgstr ""
 
-#: devvn-local-store.php:261 inc/dvls-shortcode.php:8
+#: echbay-ai-local-store.php:261 inc/dvls-shortcode.php:8
 msgid "Find a local store"
 msgstr ""
 
-#: devvn-local-store.php:286
+#: echbay-ai-local-store.php:286
 msgctxt "Taxonomy General Name"
 msgid "Local Address"
 msgstr ""
 
-#: devvn-local-store.php:287
+#: echbay-ai-local-store.php:287
 msgctxt "Taxonomy Singular Name"
 msgid "Local Address"
 msgstr ""
 
-#: devvn-local-store.php:288 devvn-local-store.php:289
+#: echbay-ai-local-store.php:288 echbay-ai-local-store.php:289
 msgid "Local Address"
 msgstr ""
 
-#: devvn-local-store.php:290
+#: echbay-ai-local-store.php:290
 msgid "Parent Item"
 msgstr ""
 
-#: devvn-local-store.php:291
+#: echbay-ai-local-store.php:291
 msgid "Parent Item:"
 msgstr ""
 
-#: devvn-local-store.php:292
+#: echbay-ai-local-store.php:292
 msgid "New Item Name"
 msgstr ""
 
-#: devvn-local-store.php:293
+#: echbay-ai-local-store.php:293
 msgid "Add New Item"
 msgstr ""
 
-#: devvn-local-store.php:294
+#: echbay-ai-local-store.php:294
 msgid "Edit Item"
 msgstr ""
 
-#: devvn-local-store.php:295
+#: echbay-ai-local-store.php:295
 msgid "Update Item"
 msgstr ""
 
-#: devvn-local-store.php:296
+#: echbay-ai-local-store.php:296
 msgid "View Item"
 msgstr ""
 
-#: devvn-local-store.php:297
+#: echbay-ai-local-store.php:297
 msgid "Separate items with commas"
 msgstr ""
 
-#: devvn-local-store.php:298
+#: echbay-ai-local-store.php:298
 msgid "Add or remove items"
 msgstr ""
 
-#: devvn-local-store.php:299
+#: echbay-ai-local-store.php:299
 msgid "Choose from the most used"
 msgstr ""
 
-#: devvn-local-store.php:300
+#: echbay-ai-local-store.php:300
 msgid "Popular Items"
 msgstr ""
 
-#: devvn-local-store.php:301
+#: echbay-ai-local-store.php:301
 msgid "Search Items"
 msgstr ""
 
-#: devvn-local-store.php:302
+#: echbay-ai-local-store.php:302
 msgid "Not Found"
 msgstr ""
 
-#: devvn-local-store.php:303
+#: echbay-ai-local-store.php:303
 msgid "No items"
 msgstr ""
 
-#: devvn-local-store.php:329
+#: echbay-ai-local-store.php:329
 msgid "Store information"
 msgstr ""
 
-#: devvn-local-store.php:606 inc/dvls-metabox.php:13
+#: echbay-ai-local-store.php:606 inc/dvls-metabox.php:13
 msgid "Name"
 msgstr ""
 
-#: devvn-local-store.php:607 inc/dvls-metabox.php:17
+#: echbay-ai-local-store.php:607 inc/dvls-metabox.php:17
 msgid "Address"
 msgstr ""
 
-#: devvn-local-store.php:608 inc/dvls-metabox.php:58 inc/dvls-optionpage.php:91
+#: echbay-ai-local-store.php:608 inc/dvls-metabox.php:58 inc/dvls-optionpage.php:91
 msgid "Open"
 msgstr ""
 
-#: devvn-local-store.php:609
+#: echbay-ai-local-store.php:609
 msgid "Thumbnail"
 msgstr ""
 
-#: devvn-local-store.php:610
+#: echbay-ai-local-store.php:610
 msgid "Date"
 msgstr ""
 
-#: devvn-local-store.php:650
+#: echbay-ai-local-store.php:650
 #, php-format
 msgid ""
 "You haven't set Google Maps Api yet. Please go to the <a href=\"%s\">plugin "
@@ -405,11 +405,11 @@ msgid "Loading..."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "DevVN Local Store"
+msgid "EchBay Local Store"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://levantoan.com/find-a-local-store-by-devvn"
+msgid "http://webgiare.org/find-a-local-store-by-devvn"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -417,9 +417,9 @@ msgid "Find a Local Store by DevVN"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Le Van Toan"
+msgid "Dao Quoc Dai"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://levantoan.com"
+msgid "http://webgiare.org"
 msgstr ""

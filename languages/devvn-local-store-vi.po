@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: DevVN Local Store\n"
+"Project-Id-Version: EchBay Local Store\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-21 00:18+0700\n"
 "PO-Revision-Date: 2018-07-21 00:21+0700\n"
-"Last-Translator: Toản <levantoan01@gmail.com>\n"
+"Last-Translator: Dai <daoquocdai@webgiare.org>\n"
 "Language-Team: Vietnamese\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
@@ -13,228 +13,228 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.0.3\n"
 
-#: devvn-local-store.php:147 devvn-local-store.php:157
+#: echbay-ai-local-store.php:147 echbay-ai-local-store.php:157
 msgid "Settings"
 msgstr "Cài đặt"
 
-#: devvn-local-store.php:156
+#: echbay-ai-local-store.php:156
 msgid "Find a local store Setting"
 msgstr "Cài đặt tìm kiếm cửa hàng"
 
-#: devvn-local-store.php:187 inc/dvls-metabox.php:31 inc/dvls-shortcode.php:19
+#: echbay-ai-local-store.php:187 inc/dvls-metabox.php:31 inc/dvls-shortcode.php:19
 msgid "Select district"
 msgstr "Chọn quận, huyện"
 
-#: devvn-local-store.php:222
+#: echbay-ai-local-store.php:222
 #, php-format
-msgid "Developed by %sLê Văn Toản%s."
-msgstr "Phát triển bởi %sLê Văn Toản%s."
+msgid "Developed by %sDao Quoc Dai%s."
+msgstr "Phát triển bởi %sDao Quoc Dai%s."
 
-#: devvn-local-store.php:231
+#: echbay-ai-local-store.php:231
 msgctxt "Post Type General Name"
 msgid "Stores"
 msgstr "Toàn bộ cửa hàng"
 
-#: devvn-local-store.php:232
+#: echbay-ai-local-store.php:232
 msgctxt "Post Type Singular Name"
 msgid "Store"
 msgstr "Cửa hàng"
 
-#: devvn-local-store.php:233 devvn-local-store.php:235
+#: echbay-ai-local-store.php:233 echbay-ai-local-store.php:235
 msgid "Stores"
 msgstr "Cửa hàng"
 
-#: devvn-local-store.php:234 devvn-local-store.php:260
+#: echbay-ai-local-store.php:234 echbay-ai-local-store.php:260
 msgid "Store"
 msgstr "Cửa hàng"
 
-#: devvn-local-store.php:236
+#: echbay-ai-local-store.php:236
 msgid "Store Attributes"
 msgstr "Thuộc tính cửa hàng"
 
-#: devvn-local-store.php:237
+#: echbay-ai-local-store.php:237
 msgid "Parent Store:"
 msgstr "Cửa hàng cha:"
 
-#: devvn-local-store.php:238
+#: echbay-ai-local-store.php:238
 msgid "All Stores"
 msgstr "Toàn bộ cửa hàng"
 
-#: devvn-local-store.php:239
+#: echbay-ai-local-store.php:239
 msgid "Add New Store"
 msgstr "Thêm cửa hàng"
 
-#: devvn-local-store.php:240
+#: echbay-ai-local-store.php:240
 msgid "Add New"
 msgstr "Thêm cửa hàng"
 
-#: devvn-local-store.php:241
+#: echbay-ai-local-store.php:241
 msgid "New Store"
 msgstr "Cửa hàng mới"
 
-#: devvn-local-store.php:242
+#: echbay-ai-local-store.php:242
 msgid "Edit Store"
 msgstr "Sửa cửa hàng"
 
-#: devvn-local-store.php:243
+#: echbay-ai-local-store.php:243
 msgid "Update Store"
 msgstr "Cập nhật cửa hàng"
 
-#: devvn-local-store.php:244
+#: echbay-ai-local-store.php:244
 msgid "View Store"
 msgstr "Xem cửa hàng"
 
-#: devvn-local-store.php:245
+#: echbay-ai-local-store.php:245
 msgid "View Stores"
 msgstr "Xem cửa hàng"
 
-#: devvn-local-store.php:246
+#: echbay-ai-local-store.php:246
 msgid "Search Store"
 msgstr "Tìm kiếm cửa hàng"
 
-#: devvn-local-store.php:247
+#: echbay-ai-local-store.php:247
 msgid "Not found"
 msgstr "Không tìm thấy cửa hàng"
 
-#: devvn-local-store.php:248
+#: echbay-ai-local-store.php:248
 msgid "Not found in Trash"
 msgstr "Không tìm thấy cửa hàng trong thùng rác"
 
-#: devvn-local-store.php:249
+#: echbay-ai-local-store.php:249
 msgid "Featured Image"
 msgstr "Ảnh đại diện"
 
-#: devvn-local-store.php:250
+#: echbay-ai-local-store.php:250
 msgid "Set featured image"
 msgstr "Chọn làm ảnh đại diện"
 
-#: devvn-local-store.php:251
+#: echbay-ai-local-store.php:251
 msgid "Remove featured image"
 msgstr "Xóa bỏ ảnh đại diện"
 
-#: devvn-local-store.php:252
+#: echbay-ai-local-store.php:252
 msgid "Use as featured image"
 msgstr "Sử dụng ảnh làm ảnh đại diện"
 
-#: devvn-local-store.php:253
+#: echbay-ai-local-store.php:253
 msgid "Insert into item"
 msgstr "Insert into item"
 
-#: devvn-local-store.php:254
+#: echbay-ai-local-store.php:254
 msgid "Uploaded to this item"
 msgstr "Uploaded to this item"
 
-#: devvn-local-store.php:255 devvn-local-store.php:304
+#: echbay-ai-local-store.php:255 echbay-ai-local-store.php:304
 msgid "Items list"
 msgstr "Items list"
 
-#: devvn-local-store.php:256 devvn-local-store.php:305
+#: echbay-ai-local-store.php:256 echbay-ai-local-store.php:305
 msgid "Items list navigation"
 msgstr "Items list navigation"
 
-#: devvn-local-store.php:257
+#: echbay-ai-local-store.php:257
 msgid "Filter items list"
 msgstr "Filter items list"
 
-#: devvn-local-store.php:261 inc/dvls-shortcode.php:8
+#: echbay-ai-local-store.php:261 inc/dvls-shortcode.php:8
 msgid "Find a local store"
 msgstr "Tìm kiếm cửa hàng"
 
-#: devvn-local-store.php:286
+#: echbay-ai-local-store.php:286
 msgctxt "Taxonomy General Name"
 msgid "Local Address"
 msgstr "Tỉnh/thành phố"
 
-#: devvn-local-store.php:287
+#: echbay-ai-local-store.php:287
 msgctxt "Taxonomy Singular Name"
 msgid "Local Address"
 msgstr "Tỉnh/thành phố"
 
-#: devvn-local-store.php:288 devvn-local-store.php:289
+#: echbay-ai-local-store.php:288 echbay-ai-local-store.php:289
 msgid "Local Address"
 msgstr "Tỉnh/thành phố"
 
-#: devvn-local-store.php:290
+#: echbay-ai-local-store.php:290
 msgid "Parent Item"
 msgstr "Parent Item"
 
-#: devvn-local-store.php:291
+#: echbay-ai-local-store.php:291
 msgid "Parent Item:"
 msgstr "Parent Item:"
 
-#: devvn-local-store.php:292
+#: echbay-ai-local-store.php:292
 msgid "New Item Name"
 msgstr "New Item Name"
 
-#: devvn-local-store.php:293
+#: echbay-ai-local-store.php:293
 msgid "Add New Item"
 msgstr "Add New Item"
 
-#: devvn-local-store.php:294
+#: echbay-ai-local-store.php:294
 msgid "Edit Item"
 msgstr "Edit Item"
 
-#: devvn-local-store.php:295
+#: echbay-ai-local-store.php:295
 msgid "Update Item"
 msgstr "Update Item"
 
-#: devvn-local-store.php:296
+#: echbay-ai-local-store.php:296
 msgid "View Item"
 msgstr "View Item"
 
-#: devvn-local-store.php:297
+#: echbay-ai-local-store.php:297
 msgid "Separate items with commas"
 msgstr "Separate items with commas"
 
-#: devvn-local-store.php:298
+#: echbay-ai-local-store.php:298
 msgid "Add or remove items"
 msgstr "Add or remove items"
 
-#: devvn-local-store.php:299
+#: echbay-ai-local-store.php:299
 msgid "Choose from the most used"
 msgstr "Choose from the most used"
 
-#: devvn-local-store.php:300
+#: echbay-ai-local-store.php:300
 msgid "Popular Items"
 msgstr "Popular Items"
 
-#: devvn-local-store.php:301
+#: echbay-ai-local-store.php:301
 msgid "Search Items"
 msgstr "Search Items"
 
-#: devvn-local-store.php:302
+#: echbay-ai-local-store.php:302
 msgid "Not Found"
 msgstr "Not Found"
 
-#: devvn-local-store.php:303
+#: echbay-ai-local-store.php:303
 msgid "No items"
 msgstr "No items"
 
-#: devvn-local-store.php:329
+#: echbay-ai-local-store.php:329
 msgid "Store information"
 msgstr "Thông tin cửa hàng"
 
-#: devvn-local-store.php:606 inc/dvls-metabox.php:13
+#: echbay-ai-local-store.php:606 inc/dvls-metabox.php:13
 msgid "Name"
 msgstr "Tên cửa hàng"
 
-#: devvn-local-store.php:607 inc/dvls-metabox.php:17
+#: echbay-ai-local-store.php:607 inc/dvls-metabox.php:17
 msgid "Address"
 msgstr "Địa chỉ"
 
-#: devvn-local-store.php:608 inc/dvls-metabox.php:58 inc/dvls-optionpage.php:91
+#: echbay-ai-local-store.php:608 inc/dvls-metabox.php:58 inc/dvls-optionpage.php:91
 msgid "Open"
 msgstr "Mở cửa"
 
-#: devvn-local-store.php:609
+#: echbay-ai-local-store.php:609
 msgid "Thumbnail"
 msgstr "Hình đại diện"
 
-#: devvn-local-store.php:610
+#: echbay-ai-local-store.php:610
 msgid "Date"
 msgstr "Ngày"
 
-#: devvn-local-store.php:650
+#: echbay-ai-local-store.php:650
 #, php-format
 msgid ""
 "You haven't set Google Maps Api yet. Please go to the <a href=\"%s\">plugin "
@@ -399,12 +399,12 @@ msgid "Loading..."
 msgstr "Đang tải..."
 
 #. Plugin Name of the plugin/theme
-msgid "DevVN Local Store"
-msgstr "DevVN Local Store"
+msgid "EchBay Local Store"
+msgstr "EchBay Local Store"
 
 #. Plugin URI of the plugin/theme
-msgid "http://levantoan.com/find-a-local-store-by-devvn"
-msgstr "http://levantoan.com/find-a-local-store-by-devvn"
+msgid "http://webgiare.org/find-a-local-store-by-devvn"
+msgstr "http://webgiare.org/find-a-local-store-by-devvn"
 
 #. Description of the plugin/theme
 msgid "Find a Local Store by DevVN"
@@ -412,8 +412,8 @@ msgstr "Plugin tìm kiếm cửa hàng trực quan thông qua google Maps API"
 
 #. Author of the plugin/theme
 msgid "Le Van Toan"
-msgstr "Lê Văn Toản"
+msgstr "Dao Quoc Dai"
 
 #. Author URI of the plugin/theme
-msgid "http://levantoan.com"
-msgstr "http://levantoan.com"
+msgid "http://webgiare.org"
+msgstr "http://webgiare.org"

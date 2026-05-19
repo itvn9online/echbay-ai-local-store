@@ -1,6 +1,6 @@
-=== DevVN Local Store ===
-Contributors: levantoan
-Donate link: https://levantoan.com/donate/
+=== EchBay Local Store ===
+Contributors: daoquocdai
+Donate link: https://webgiare.org/donate/
 Tags: google map api, local store, cua hang, search store
 Requires at least: 4.3
 Tested up to: 6.5.3
@@ -8,19 +8,19 @@ Stable tag: 1.1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 
-DevVN Local Store help you add stores and search store on google maps.
+EchBay Local Store help you add stores and search store on google maps.
 
 == Description ==
 
-DevVN Local Store help you add stores and search store on google maps.
+EchBay Local Store help you add stores and search store on google maps.
 
 [Live Demo](http://demo.devvn.com/plugins/find-a-store/)
-[Plugin Homepage](https://levantoan.com/find-a-local-store-by-devvn/)
+[Plugin Homepage](https://webgiare.org/find-a-local-store-by-devvn/)
 
 ### Pro version
 
 Hiện tại Google Map API đang bị chặn ở VN nên việc tạo API rất khó khăn. Để giải quyết được vấn đề này mình đã viết bản pro không cần dùng tới Google Maps API mà vẫn đủ chức năng cần thiết nhé
-[Xem bản pro tại đây](https://levantoan.com/san-pham/plugin-danh-sach-dia-diem-local-store-pro/)
+[Xem bản pro tại đây](https://webgiare.org/san-pham/plugin-danh-sach-dia-diem-local-store-pro/)
 
 ### Used
 
@@ -31,14 +31,14 @@ https://www.youtube.com/watch?v=28u49f2frZ0
 
 == Installation ==
 
-1. Upload the entire `devvn-local-store` folder to the `/wp-content/plugins/` directory.
+1. Upload the entire `echbay-ai-local-store` folder to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 You will find 'Stores' menu in your WordPress admin panel.
 
 USE: Copy shortcode [devvn_local_stores] to view
 
-For basic usage, you can also have a look at the [plugin homepage](https://levantoan.com/find-a-local-store-by-devvn/).
+For basic usage, you can also have a look at the [plugin homepage](https://webgiare.org/find-a-local-store-by-devvn/).
 
 == Frequently Asked Questions ==
 
@@ -50,15 +50,15 @@ For basic usage, you can also have a look at the [plugin homepage](https://levan
 
 = How to create a google maps api? =
 
-You can see my topic: [Creat google maps api](https://levantoan.com/create-google-maps-api/)
+You can see my topic: [Creat google maps api](https://webgiare.org/create-google-maps-api/)
 
 = How to get Latitude and Longitude? =
 
-Go to my tool: [Auto get Latitude and Longitude](https://levantoan.com/auto-get-latitude-longitude/)
+Go to my tool: [Auto get Latitude and Longitude](https://webgiare.org/auto-get-latitude-longitude/)
 
 = Làm thế nào để hiển thị Tiếng Việt? =
 
-Hãy copy file devvn-localstore-vi.mo tại wp-content\plugins\devvn-local-store\languages\devvn-localstore-vi.mo sang thư mục wp-content\languages\plugins\devvn-localstore-vi.mo
+Hãy copy file devvn-localstore-vi.mo tại wp-content\plugins\echbay-ai-local-store\languages\devvn-localstore-vi.mo sang thư mục wp-content\languages\plugins\devvn-localstore-vi.mo
 
 == Screenshots ==
 
@@ -69,7 +69,7 @@ Hãy copy file devvn-localstore-vi.mo tại wp-content\plugins\devvn-local-store
 
 == Changelog ==
 
-For more information, see [Releases](https://levantoan.com/find-a-local-store-by-devvn/).
+For more information, see [Releases](https://webgiare.org/find-a-local-store-by-devvn/).
 
 = 1.1.0 =
 
