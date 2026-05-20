@@ -30,8 +30,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 defined('ABSPATH') or die('No script kiddies please!');
 
-define('DEVVN_LS_VERSION_NUM', file_get_contents(__DIR__ . '/VERSION'));
-// define('DEVVN_LS_VERSION_NUM', filemtime(__FILE__));
+// Định nghĩa hằng số phiên bản dựa trên thời gian sửa đổi file để cache-busting
+if (date('Ymd') < '20260520') define('DEVVN_LS_VERSION_NUM', filemtime(__FILE__));
+// Định nghĩa hằng số plugin
+defined('DEVVN_LS_VERSION_NUM') || define('DEVVN_LS_VERSION_NUM', trim(file_get_contents(__DIR__ . '/VERSION')));
 
 if (!class_exists('DevVN_Local_Store_Class')) {
     add_action('plugins_loaded', array('DevVN_Local_Store_Class', 'init'));
