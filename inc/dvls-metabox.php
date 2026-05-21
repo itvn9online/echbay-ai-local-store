@@ -82,7 +82,8 @@ wp_nonce_field('dvls_save_meta_box_data', 'dvls_meta_box_nonce');
             <tr>
                 <td colspan="2">
                     <label for="dvls_maps_address"><?php _e('Place Name', 'echbay-ai-local-store') ?></label>
-                    <input name="dvls[maps_address]" id="dvls_maps_address" class="controls" autocomplete="off" onkeypress="return event.keyCode != 13;" placeholder="<?php _e('Type a place name to find', 'echbay-ai-local-store') ?>" />
+                    <input name="dvls[maps_address]" id="dvls_maps_address" class="controls" autocomplete="off" onkeypress="return event.keyCode != 13;" placeholder="<?php _e('Type a place name to find', 'echbay-ai-local-store') ?>" style="width: 80%;" />
+                    <p class="description"><?php _e('You can paste a Google Maps URL or raw coordinates (e.g. <code>21.2534, 105.8417</code>) to set the location automatically.', 'echbay-ai-local-store'); ?></p>
                 </td>
             </tr>
             <tr>

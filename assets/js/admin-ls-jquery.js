@@ -1,4 +1,25 @@
-﻿(function ($) {
+﻿// Extract coordinates from Google Maps URL
+function dvls_extract_gmaps_coords(text) {
+	text = text.replace(/\s+/g, "").trim();
+	var parts = text.split("/@");
+	var coords = null;
+	if (parts.length < 2) {
+		coords = parts[0].split(",");
+		if (coords.length < 2) return null;
+	}
+	if (coords === null) coords = parts[1].split(",");
+	var lat = parseFloat(coords[0]);
+	var lng = parseFloat(coords[1]);
+	if (isNaN(lat) || isNaN(lng)) return null;
+	if (lat < -90 || lat > 90) return null;
+	if (lng < -180 || lng > 180) return null;
+	return {
+		lat: lat,
+		lng: lng,
+	};
+}
+
+(function ($) {
 	$(document).ready(function () {
 		var dvls_city = $.parseJSON(dvls_admin.local_address);
 		var citySelect = $(".dvls_city");
@@ -146,6 +167,22 @@
 				},
 			});
 		}
+
+		addressInput.on("paste", function (e) {
+			var pasted = (
+				e.originalEvent.clipboardData || window.clipboardData
+			).getData("text");
+			if (!pasted) return;
+			var coords = dvls_extract_gmaps_coords(pasted);
+			if (!coords) return;
+			e.preventDefault();
+			var latlng = L.latLng(coords.lat, coords.lng);
+			marker.setLatLng(latlng);
+			map.setView(latlng, parseInt(dvls_admin.maps_zoom));
+			$("#dvls_maps_lat").val(coords.lat.toFixed(6));
+			$("#dvls_maps_lng").val(coords.lng.toFixed(6));
+			$(this).val("");
+		});
 
 		addressInput.on("keydown", function (e) {
 			if (e.keyCode === 13) {

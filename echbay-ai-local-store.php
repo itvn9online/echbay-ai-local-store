@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: EchBay Local Store
-* Version: 1.1.4
+* Version: 1.1.5
 * Description: Find a Local Store by EchBay
 * Author: Dao Quoc Dai
 * Author URI: http://webgiare.org
@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 defined('ABSPATH') or die('No script kiddies please!');
 
 // Định nghĩa hằng số phiên bản dựa trên thời gian sửa đổi file để cache-busting
-if (date('Ymd') < '20260520') define('DEVVN_LS_VERSION_NUM', filemtime(__FILE__));
+// if (date('Ymd') < '20260522') define('DEVVN_LS_VERSION_NUM', filemtime(__FILE__));
 // Định nghĩa hằng số plugin
 defined('DEVVN_LS_VERSION_NUM') || define('DEVVN_LS_VERSION_NUM', trim(file_get_contents(__DIR__ . '/VERSION')));
 

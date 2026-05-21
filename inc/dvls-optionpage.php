@@ -30,7 +30,8 @@ global $dvls_settings;
                             <input type="text" id="dvls_opt_address" placeholder="<?php _e('Search address...', 'echbay-ai-local-store'); ?>" style="flex:1;" />
                             <button type="button" id="dvls_opt_search" class="button"><?php _e('Search', 'echbay-ai-local-store'); ?></button>
                         </div>
-                        <div id="dvls_opt_map" style="width:100%;height:380px;"></div>
+                        <p class="description"><?php _e('You can paste a Google Maps URL or raw coordinates (e.g. <code>21.2534, 105.8417</code>) to set the location automatically.', 'echbay-ai-local-store'); ?></p>
+                        <div id="dvls_opt_map" style="width:100%;height:380px;margin-top: 8px;"></div>
                     </td>
                 </tr>
                 <tr>
@@ -202,6 +203,19 @@ global $dvls_settings;
             };
             xhr.send();
         }
+
+        document.getElementById('dvls_opt_address').addEventListener('paste', function(e) {
+            var pasted = (e.clipboardData || window.clipboardData).getData('text');
+            if (!pasted) return;
+            var coords = dvls_extract_gmaps_coords(pasted);
+            if (!coords) return;
+            e.preventDefault();
+            var ll = L.latLng(coords.lat, coords.lng);
+            marker.setLatLng(ll);
+            map.setView(ll, zoom);
+            applyLatLng(ll);
+            this.value = '';
+        });
 
         document.getElementById('dvls_opt_search').addEventListener('click', function() {
             dvls_opt_search(document.getElementById('dvls_opt_address').value);
